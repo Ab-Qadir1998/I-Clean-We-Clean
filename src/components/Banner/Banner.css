@@ -1,0 +1,83 @@
+.banner--home {
+    min-height: 700px;
+    background: url(../../assets/images/banner-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 5rem 0;
+    position: relative;
+    margin-top: -140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__text-wrapp {
+    text-align: center;
+}
+
+/* banner form */
+.banner__text-wrapp h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.banner__text-wrapp h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.banner__text-wrapp form {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+}
+
+.banner__text-wrapp form input, .banner__text-wrapp form select {
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.banner__text-wrapp form input[type="text"] {
+    flex: 3;
+    padding: 1rem;
+}
+
+.banner__text-wrapp form select {
+    flex: 1;
+    background: #efefef;
+    padding: 1rem;
+    transform: translateX(17px);
+}
+
+.banner__text-wrapp form button {
+    flex: 1;
+    border: 0;
+    outline: none;
+    background: linear-gradient(#6FBB46, #E1E01E);
+    border-radius: 30px;
+    padding: 1rem;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.banner__text-wrapp form button:hover {
+    background: linear-gradient(#E1E01E,#6FBB46);
+}
+
+.heading--contain-link {
+    margin-top: 2rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.heading--contain-link a {
+    color: #6FBB46;
+}

@@ -1,0 +1,76 @@
+.button--main {
+   background : linear-gradient(#31C1EB,#113C60);
+   color : #fff !important;
+   font-size: 16px !important;
+   padding:1rem 3rem !important;
+   border-radius: 30px !important;
+}
+
+.slick-prev:before, .slick-next:before {
+   color : #000 !important
+}
+
+/* services  */
+
+
+.services-box {
+    padding: 0 10px;
+}
+.service__text-wrapp {
+   padding: 1rem;
+   text-align: center;
+   /* background: #fff; */
+   transform: translateY(-20px);
+   border-radius: 0 0 20px 20px;
+   transition: .4s ease;
+   border-bottom: 8px solid transparent;
+   background: #fff url(../../assets/images/ser-text-bg.png) no-repeat center;
+   background-size: auto;
+}
+.services-box:hover .service__text-wrapp {
+   border-bottom: 8px solid #6FBB46;
+}
+
+.service__title {
+   margin: 10px 0;
+   color: #000B11;
+   font-size: 22px;
+   font-weight: bold;
+}
+
+p.service__intro {
+   margin: 20px 0;
+   color: #000B11;
+   line-height: 27px;
+   font-size: 13px;
+}
+
+.service__image img {
+   width: 100%;
+}
+
+
+section.services-section {
+   background: #e7e8ea;
+   padding: 4rem 0 !important;
+}
+
+
+.slick-arrow:before {
+   color: #6FBB46 !important;
+   font-size: 30px !important;
+}
+
+.slick-prev {
+   left: -40px !important;
+}
+
+.slick-next {
+   right: -30px !important;
+}
+
+
+.services-wrapper {
+   margin-top: 3rem;
+}
+/* services  */
